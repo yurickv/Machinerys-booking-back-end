@@ -28,6 +28,7 @@ const machinerySchema = new Schema(
       type: String,
       required: [true, "Set location for machine"],
     },
+    foto_url: { type: String, required: [true, "Set foto_url for machine"] },
     description: {
       type: String,
     },

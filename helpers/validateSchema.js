@@ -7,6 +7,7 @@ const validSchema = Joi.object({
   contact: Joi.string().required(),
   price: Joi.string().required(),
   location: Joi.string().required(),
+  foto_url: Joi.string().required(),
   description: Joi.string(),
   status: Joi.string(),
 });
